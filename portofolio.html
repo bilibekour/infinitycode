@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Markazi+Text&display=swap" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/filtros.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    <link rel="icon" href="favicon.ico">
+    <title>Infinity Code</title>
+</head>
+<body>
+    <header>
+        <!--************************nav***************************-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/"><img src="img/logo.png" class="logo" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quien_somos">QUIEN SOMOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SERVICIOS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="desarrollo_web">DESARROLLO WEB</a>
+                    <a class="dropdown-item" href="desarrollo_apps">DESARROLLO DE APPS</a>
+                    <a class="dropdown-item" href="marketing">MARKETING</a>
+                    <a class="dropdown-item" href="diseno_grafico">DISEÑO GRÁFICO</a>
+                    <a class="dropdown-item" href="redes_sociales">REDES SOCIALES</a>
+                    <a class="dropdown-item" href="seo">SEO</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portofolio">PORTOFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">CONTACTAR</a>
+                </li>
+              </ul>
+             
+            </div>
+          </nav>
+            <!--************************nav end***************************-->
+            
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12" style="text-align: center;">
+                    <h1>Portofolio</h1>
+                </div>
+              </div>
+            </div>
+            <img class="wave" src="img/large.png" alt="wave">
+          </section>
+
+          <section>
+            <div class="container">
+                <div class="row">
+                    <!--Titulo-->
+                    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h1 class="gallery-title text-center">GALERIA</h1>
+                        <hr class="linea2">
+                        <hr class="linea">
+                    </div>
+                    <!--Filtros-->
+                    <div class="filtros">
+                        <button class="btn btn-default filtro" data-filter="all">Todo</button>
+                        <button class="btn btn-default filtro" data-filter="dw">Diseño web</button>
+                        <button class="btn btn-default filtro" data-filter="da">Diseño de apps</button>
+                        <button class="btn btn-default filtro" data-filter="lg">Logotipos</button>
+                        <button class="btn btn-default filtro" data-filter="pk">Packaging</button>
+                        <button class="btn btn-default filtro" data-filter="mf">Muckup y flyer</button>
+                    </div>
+                    <br>
+                
+                    <!--Contenido-->
+                                    
+                    <div class="gallery_product col-md-4 filter dw">
+                      <a href="img/galeria/fitweb.png" data-lightbox="roadtrip">
+                        <img src="img/galeria/fitweb1.png" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>Fit WEB</h2>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-md-4 filter lg">
+                        <a href="img/galeria/infinity logo.png" data-lightbox="roadtrip">
+                          <img src="img/galeria/infinity logo.png" class="img-fluid fl-img">
+                        </a>
+                        <div class="desc">
+                          <h2>LOGO</h2>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_product col-md-4 filter mf">
+                        <a href="img/galeria/mat.png" data-lightbox="roadtrip">
+                          <img src="img/galeria/mat.png" class="img-fluid fl-img">
+                        </a>
+                        <div class="desc">
+                          <h2>Muckup Fútbol</h2>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_product col-md-4 filter mf">
+                      <a href="img/galeria/mdiq1.png" data-lightbox="roadtrip">
+                        <img src="img/galeria/mdiq1.png" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>Muckup Fútbol</h2>
+                        </div>
+                    </div>
+                
+                    <div class="gallery_product col-md-4 filter mf">
+                      <a href="img/galeria/mdiq2.png" data-lightbox="roadtrip">
+                        <img src="img/galeria/mdiq2.png" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>Muckup Fútbol</h2>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_product col-md-4 filter lg">
+                      <a href="" data-lightbox="roadtrip">
+                        <img src="http://fakeimg.pl/365x365/" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>LOREM</h2>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_product col-md-4 filter da">
+                      <a href="" data-lightbox="roadtrip">
+                        <img src="http://fakeimg.pl/365x365/" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>LOREM</h2>
+                        </div>
+                    </div>
+                
+                    <div class="gallery_product col-md-4 filter da">
+                      <a href="" data-lightbox="roadtrip">
+                        <img src="http://fakeimg.pl/365x365/" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>LOREM</h2>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_product col-md-4 filter mf">
+                      <a href="" data-lightbox="roadtrip">
+                        <img src="http://fakeimg.pl/365x365/" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>LOREM</h2>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_product col-md-4 filter pk">
+                      <a href="" data-lightbox="roadtrip">
+                        <img src="http://fakeimg.pl/365x365/" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>LOREM</h2>
+                        </div>
+                    </div>
+
+                    <div class="gallery_product col-md-4 filter pk">
+                      <a href="" data-lightbox="roadtrip">
+                        <img src="http://fakeimg.pl/365x365/" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>LOREM</h2>
+                        </div>
+                    </div>
+        
+                    <div class="gallery_product col-md-4 filter dw">
+                      <a href="" data-lightbox="roadtrip">
+                        <img src="http://fakeimg.pl/365x365/" class="img-fluid fl-img">
+                      </a>
+                        <div class="desc">
+                          <h2>LOREM</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <br>
+    </main>
+
+    
+</body>
+
+<!-- ****************************Footer *****************************************-->
+<footer class="page-footer font-small unique-color-dark">
+    <div class="first_footer">
+      <div class="container">
+
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Síguenos en las redes sociales</h6>
+          </div>
+
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <!-- Facebook -->
+            <a class="fb-ic lik" href="https://www.facebook.com/InfinityCode1/" target="_blank">
+              <i class="fa fa-facebook mr-4" aria-hidden="true"></i>
+            </a>
+          <!-- Github -->
+            <a class="tw-ic lik" href="https://github.com/Infinitycod3" target="_blank">
+              <i class="fa fa-github mr-4" aria-hidden="true"></i>
+            </a>
+        <!-- Behance +-->
+            <a class="gplus-ic lik" href="https://www.behance.net/bilalbekour" target="_blank">
+              <i class="fa fa-behance mr-4" aria-hidden="true"></i>
+            </a>
+        <!--Linkedin -->
+            <a class="li-ic lik" href="#" target="_blank">
+              <i class="fa fa-linkedin mr-4" aria-hidden="true"></i>
+            </a>
+        <!--Instagram-->
+            <a class="ins-ic lik" href="#" target="_blank">
+              <i class="fa fa-instagram mr-4" aria-hidden="true"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container text-center text-md-left mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">INFINITY CODE</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>En Infinitycode invertimos nuestro tiempo y esfuerzo para ofrecerte el mejor producto, con el fin de conseguir rentabilidad para tu negocio o empresa.</p>
+
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mb-4">
+
+          <h6 class="text-uppercase font-weight-bold">Servicios</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+              <a class="lik" href="desarrollo_web">DESARROLLO WEB</a>
+          </p>
+          <p>
+              <a class="lik" href="desarrollo_apps">DESARROLLO DE APPS</a>
+          </p>
+          <p>
+              <a class="lik" href="diseno_grafico">DISEÑO GRÁFICO</a>
+          </p>
+          <p>
+              <a class="lik" href="seo">SEO</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4">
+
+          <h6 class="text-uppercase font-weight-bold">Enlaces</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="lik" href="#!">Aviso legal</a>
+          </p>
+          <p>
+            <a class="lik" href="#!">Política de Privacidad</a>
+          </p>
+          <p>
+            <a class="lik" href="#!">Política de cookies</a>
+          </p>
+          <p>
+            <a class="lik" href="#!">Contactar</a>
+          </p>
+
+        </div>
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4">
+
+          <h6 class="text-uppercase font-weight-bold">Contactar</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fa fa-building-o mr-3" aria-hidden="true"></i> M'diq,  93200, Marruecos</p>
+          <p>
+            <i class="fa fa-envelope-o mr-3" aria-hidden="true"></i> contact@infinitycode.net</p>
+          <p>
+            <i class="fa fa-envelope-o mr-3" aria-hidden="true"></i> info@infinitycode.net</p>
+          <p>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i> + 212 675 479 080</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3 first_footer">© 2020 Copyright:
+      <a class="lik" href="#"> INFINITY CODE</a>
+    </div>
+
+
+  </footer>
+</html>

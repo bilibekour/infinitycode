@@ -1,0 +1,13 @@
+ErrorDocument 400 http://infinitycode.net/400
+ErrorDocument 401 http://infinitycode.net/401
+ErrorDocument 403 http://infinitycode.net/403
+ErrorDocument 404 http://infinitycode.net/404
+ErrorDocument 503 http://infinitycode.net/503
+RewriteBase /
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
